@@ -33,7 +33,7 @@ const About = () => {
             Welcome to <span className="text-blue-600 dark:text-blue-300">SHOPMOZE</span> – Your Smart Shopping Companion
           </h1>
           <motion.p 
-            className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 overflow-x-hidden"
+            className="text-lg leading-relaxed text-gray-600  overflow-x-hidden"
             variants={aboutMo(1)} 
             initial="initial" 
             animate="visible"
