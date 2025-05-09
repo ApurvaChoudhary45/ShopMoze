@@ -57,7 +57,7 @@ const Cards = () => {
       setopen(!open)
     }
   return (
-    <div className={darkMode ? 'bg-black' : 'bg-#f4ecfd'}>
+    <div className={darkMode ? 'bg-black' : 'bg-[#f4ecfd]'}>
       <div>
         <motion.h1 className='font-bold text-4xl text-blue-400 text-center py-10 overflow-x-hidden' whileInView={{opacity: 1, y:0}} initial={{opacity:0, y:100}} transition={{duration: 0.5}}>Products</motion.h1>
       </div>
