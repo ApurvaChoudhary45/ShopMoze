@@ -19,7 +19,7 @@ const Search = () => {
         visible: { opacity: 1, y: 0, transition: { duration: 0.7, delay : delay } },
     })
   return (
-    <motion.div className={`flex items-center ${darkMode ? 'bg-black' : 'bg-#ffffff'}`} variants={searchMotion(1)} initial="initial" animate="visible">
+    <motion.div className={`flex items-center ${darkMode ? 'bg-black' : 'bg-[#ffffff]'}`} variants={searchMotion(1)} initial="initial" animate="visible">
       <input type="text" className={`w-[90%] rounded-3xl p-3 font-black mx-5 ${darkMode ? 'text-blue-400' : 'text-gray-500'}`} placeholder='Search a Product' value={search} onChange={(e)=>setsearch(e.target.value)}/>
       <button className='text-xl rounded-2xl bg-blue-400 p-2 cursor-pointer hover:scale-105 hover:text-white' onClick={searchProduct}>Search</button>
     </motion.div>

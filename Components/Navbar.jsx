@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
 
           {/* Label */}
-          <span className={`ml-3 text-sm font-medium ${darkMode ? 'text-blue-400' : 'text-gray-700'}  dark:text-white`}>
+          <span className={`ml-3 text-sm font-medium ${darkMode ? 'text-blue-400' : 'text-gray-700'}`}>
             {darkMode ? 'Dark Mode' : 'Light Mode'}
           </span>
         </label>
